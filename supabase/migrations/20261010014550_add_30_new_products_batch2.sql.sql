@@ -1,0 +1,91 @@
+-- Add 30 new products (batch 2)
+-- Products that already exist from the first batch are NOT duplicated here.
+
+INSERT INTO products (name, tagline, description, price, category, image_url, specs, featured, in_stock) VALUES
+
+-- Smart Ring Gen 2
+('Smart Ring Gen 2', 'Next-gen health ring with 7-day battery', 'The Smart Ring Gen 2 tracks your heart rate, SpO2, sleep stages, and body temperature in a featherlight titanium ring. 7-day battery life with wireless charging dock included. The most discreet wearable you''ll ever own.', 59.00, 'Wearables', 'https://images.pexels.com/photos/35147278/pexels-photo-35147278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"sensors": "HR, SpO2, Temp, Accelerometer", "battery": "7 days", "charging": "Wireless dock", "material": "Titanium", "weight": "4g", "water_rating": "IPX8"}', false, true),
+
+-- Smart Fitness Band Pro
+('Smart Fitness Band Pro', 'AMOLED display with 14-day battery', 'Track 120+ workout modes, continuous heart rate, blood oxygen, and stress levels on a vibrant 1.62" AMOLED display. 14-day battery life, 5ATM water resistance, and built-in GPS make this the ultimate fitness companion.', 29.00, 'Wearables', 'https://images.pexels.com/photos/39076654/pexels-photo-39076654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"display": "1.62 AMOLED", "battery": "14 days", "workout_modes": "120+", "water_rating": "5ATM", "gps": "Built-in", "sensors": "HR, SpO2, Stress"}', true, true),
+
+-- Smart Sleep Mask with Audio
+('Smart Sleep Mask with Audio', 'Drift off with built-in sleep sounds', 'A luxurious sleep mask with ultra-thin Bluetooth speakers embedded inside. Play white noise, podcasts, or meditation tracks while blocking 100% of light. Soft memory foam contours to your face for zero pressure on your eyes.', 38.00, 'Wearables', 'https://images.pexels.com/photos/9787785/pexels-photo-9787785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"bluetooth": "5.3", "speakers": "Ultra-thin embedded", "battery": "10 hours", "material": "Memory foam", "washable": "Yes"}', false, true),
+
+-- Smart Eye Massager
+('Smart Eye Massager', 'Relieve eye strain with heat and vibration', 'Air pressure, gentle heat, and vibration massage combine to soothe tired eyes and reduce dark circles. Bluetooth music playback lets you relax with your favorite tunes. 15-minute auto-timer for the perfect break.', 42.00, 'Wearables', 'https://images.pexels.com/photos/6763081/pexels-photo-6763081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"modes": "5 massage modes", "heat": "40-42C", "bluetooth": "Yes", "battery": "5 hours", "timer": "15 min auto", "foldable": "Yes"}', false, true),
+
+-- ECG Smart Watch
+('ECG Smart Watch', 'Medical-grade ECG on your wrist', 'Take a clinical-quality ECG anytime, anywhere. Get FDA-cleared heart rhythm analysis, AFib detection, and instant alerts. Also tracks blood pressure, SpO2, and sleep. 2-week battery on a single charge.', 79.00, 'Wearables', 'https://images.pexels.com/photos/19961775/pexels-photo-19961775.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"ecg": "FDA-cleared", "blood_pressure": "Yes", "battery": "14 days", "display": "1.43 AMOLED", "water_rating": "IP68", "alerts": "AFib detection"}', true, true),
+
+-- Smart Neck Massager
+('Smart Neck Massager', 'TENS pulse relief for neck tension', 'Wireless cervical neck massager uses low-frequency TENS pulses to relieve muscle stiffness and pain. 6 modes, 16 intensity levels, and a built-in heating pad. Ergonomic U-shaped design fits comfortably around any neck.', 39.00, 'Wearables', 'https://images.pexels.com/photos/8076121/pexels-photo-8076121.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"technology": "TENS pulse", "modes": "6", "intensity": "16 levels", "heat": "Yes", "battery": "8 hours", "wireless": "Yes"}', false, true),
+
+-- Open Ear Earbuds Clip
+('Open Ear Earbuds Clip', 'Clip-on open-ear audio for safety', 'Revolutionary clip-on design sits outside your ear canal, so you stay aware of your surroundings while enjoying rich audio. Perfect for running, cycling, and outdoor activities. Lightweight, sweatproof, and secure.', 49.00, 'Audio', 'https://images.pexels.com/photos/32769441/pexels-photo-32769441.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"design": "Clip-on open-ear", "driver": "16mm dynamic", "bluetooth": "5.3", "battery": "8 hours + 28h case", "sweatproof": "IPX5", "weight": "5g each"}', false, true),
+
+-- Bone Conduction Headset
+('Bone Conduction Headset', 'Hear through your cheekbones', 'Premium bone conduction technology delivers sound through your cheekbones, leaving your ears completely open. IP68 waterproof for swimming. 8-hour battery, lightweight titanium frame, and crystal-clear calls with noise-cancelling mic.', 59.00, 'Audio', 'https://images.pexels.com/photos/20477239/pexels-photo-20477239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"technology": "Bone conduction", "water_rating": "IP68", "battery": "8 hours", "frame": "Titanium", "bluetooth": "5.2", "mic": "Noise-cancelling"}', false, true),
+
+-- Sleep Earbuds Tiny
+('Sleep Earbuds Tiny', 'World''s smallest sleep earbuds', 'At just 0.16 oz per bud, these are the tiniest wireless earbuds ever made for sleep. Soft silicone tips stay comfortable all night. Active noise masking blocks snoring and city noise. Smart sleep tracking monitors your rest quality.', 55.00, 'Audio', 'https://images.pexels.com/photos/16240420/pexels-photo-16240420.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"size": "0.16 oz per bud", "noise_masking": "Active", "sleep_tracking": "Yes", "battery": "10 hours", "tips": "Soft silicone", "bluetooth": "5.3"}', false, true),
+
+-- Gaming Earbuds Low Latency
+('Gaming Earbuds Low Latency', '40ms ultra-low latency gaming audio', 'Dominate every match with 40ms ultra-low latency mode. Dual drivers deliver explosive bass and pinpoint directional audio. Dual-mic noise cancellation for clear comms. RGB charging case with 30-hour total battery.', 35.00, 'Gaming & VR', 'https://images.pexels.com/photos/12877810/pexels-photo-12877810.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"latency": "40ms", "drivers": "Dual dynamic", "mic": "Dual noise-cancelling", "battery": "6h + 24h case", "rgb": "Yes", "bluetooth": "5.3"}', false, true),
+
+-- 65W GaN Charger 3 Ports
+('65W GaN Charger 3 Ports', 'Charge laptop, phone, and earbuds at once', 'Compact GaN II technology delivers 65W from a charger half the size of standard bricks. Two USB-C and one USB-A port charge three devices simultaneously. Foldable plug, universal voltage, and PPS fast charging for Samsung and iPhone.', 29.00, 'Mobile & Desk', 'https://images.pexels.com/photos/4865059/pexels-photo-4865059.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"power": "65W total", "ports": "2x USB-C, 1x USB-A", "technology": "GaN II", "pps": "Yes", "foldable_plug": "Yes", "universal": "100-240V"}', true, true),
+
+-- Transparent Power Bank
+('Transparent Power Bank', 'See-through 20,000mAh with LED display', 'A stunning transparent design reveals the internal circuitry. 20,000mAh capacity with 22.5W fast charging. Built-in LED display shows exact remaining percentage. Charges phone 4-5 times on a single charge.', 38.00, 'Mobile & Desk', 'https://images.pexels.com/photos/6296911/pexels-photo-6296911.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"capacity": "20000mAh", "output": "22.5W PD", "display": "LED percentage", "ports": "USB-C, 2x USB-A", "design": "Transparent", "charges": "4-5 phone charges"}', false, true),
+
+-- Magnetic Cable 3-in-1 360°
+('Magnetic Cable 3-in-1 360°', 'One cable for Lightning, USB-C, and Micro-USB', '360-degree rotating magnetic tip works with Lightning, USB-C, and Micro-USB devices. Nylon-braided 4-foot cable. Quick-swap magnetic heads stay in your devices for instant charging. LED indicator glows when connected.', 18.00, 'Mobile & Desk', 'https://images.pexels.com/photos/4387770/pexels-photo-4387770.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"connectors": "Lightning, USB-C, Micro-USB", "length": "4ft", "material": "Nylon braided", "rotation": "360 degrees", "led": "Yes", "fast_charge": "18W"}', false, true),
+
+-- Phone Cooler Fan Radiator
+('Phone Cooler Fan Radiator', 'Peltier cooling for lag-free gaming', 'Advanced Peltier semiconductor cooling pad drops your phone temperature by 15 degrees in seconds. Prevents thermal throttling during intense gaming sessions. Whisper-quiet fan, RGB lighting, and universal phone clip.', 25.00, 'Gaming & VR', 'https://images.pexels.com/photos/33402762/pexels-photo-33402762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"cooling": "Peltier semiconductor", "temp_drop": "15C in seconds", "fan": "Whisper-quiet", "rgb": "Yes", "clip": "Universal", "power": "USB-C"}', false, true),
+
+-- Phone Gimbal Stabilizer
+('Phone Gimbal Stabilizer', 'Cinema-grade 3-axis stabilization', 'Professional 3-axis motorized gimbal eliminates shake for buttery-smooth video. ActiveTrack 6.0 follows your subject automatically. Built-in extension rod, zoom wheel, and foldable design. Compatible with phones up to 7 inches.', 79.00, 'Mobile & Desk', 'https://images.pexels.com/photos/5741878/pexels-photo-5741878.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"stabilization": "3-axis motorized", "tracking": "ActiveTrack 6.0", "extension_rod": "Built-in 215mm", "payload": "Up to 7 inch phones", "battery": "10 hours", "foldable": "Yes"}', true, true),
+
+-- Selfie Stick Tripod 1.5m
+('Selfie Stick Tripod 1.5m', 'Extendable tripod with Bluetooth remote', 'Transforms from a selfie stick to a full 1.5m tripod in seconds. Built-in Bluetooth remote control works up to 33ft away. 360-degree rotating phone holder. Aluminum construction, weighs only 320g. Perfect for content creators.', 29.00, 'Mobile & Desk', 'https://images.pexels.com/photos/20668806/pexels-photo-20668806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"extended": "1.5m", "remote": "Bluetooth 33ft range", "rotation": "360 degrees", "material": "Aluminum", "weight": "320g", "tripod": "Built-in legs"}', false, true),
+
+-- Foldable Keyboard BT
+('Foldable Keyboard BT', 'Pocket-sized keyboard for phone and tablet', 'Full-size QWERTY keyboard that folds to pocket size. Magnetic closure keeps it securely shut. Bluetooth 5.1 connects to 3 devices simultaneously. Scissor-switch keys for laptop-quality typing. 30-day battery per charge.', 35.00, 'Mobile & Desk', 'https://images.pexels.com/photos/13791405/pexels-photo-13791405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"layout": "Full QWERTY", "bluetooth": "5.1", "multi_device": "3 simultaneous", "keys": "Scissor-switch", "battery": "30 days", "folded": "Pocket size"}', false, true),
+
+-- Drone with 3 Batteries
+('Drone with 3 Batteries Pro', '4K camera drone with 3 batteries included', 'Fly longer with three batteries giving you 75 minutes total flight time. 4K UHD camera with 3-axis gimbal, 5km transmission range, GPS return-to-home, and obstacle avoidance. Foldable arms and carrying case included.', 149.00, 'Gaming & VR', 'https://images.pexels.com/photos/3823555/pexels-photo-3823555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"camera": "4K UHD 3-axis gimbal", "flight_time": "25 min per battery (3 included)", "range": "5km", "gps": "Return-to-home", "obstacle_avoidance": "Yes", "foldable": "Yes"}', true, true),
+
+-- Gaming Mouse Wireless RGB
+('Gaming Mouse Wireless RGB', '26K DPI sensor with 1ms response', 'Ultra-light 63g gaming mouse with 26,000 DPI optical sensor and 1ms wireless response. 70-hour battery, 6 programmable buttons, and RGB lighting with 16.8M colors. PTFE feet for glide. USB-C fast charging.', 29.00, 'Gaming & VR', 'https://images.pexels.com/photos/37958688/pexels-photo-37958688.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"sensor": "26000 DPI optical", "weight": "63g", "response": "1ms", "battery": "70 hours", "buttons": "6 programmable", "rgb": "16.8M colors"}', false, true),
+
+-- Gaming Keyboard 60% Mechanical
+('Gaming Keyboard 60% Mechanical', 'Hot-swappable switches with per-key RGB', 'Compact 60% layout saves desk space while keeping all essential keys. Hot-swappable mechanical switches let you customize without soldering. Per-key RGB, PBT keycaps, and a detachable USB-C cable. Perfect for gaming and travel.', 39.00, 'Gaming & VR', 'https://images.pexels.com/photos/17895080/pexels-photo-17895080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"layout": "60% compact", "switches": "Hot-swappable mechanical", "keycaps": "PBT", "rgb": "Per-key 16.8M", "cable": "Detachable USB-C", "anti_ghosting": "Full n-key"}', false, true),
+
+-- Stream Deck Mini 6 Keys
+('Stream Deck Mini 6 Keys', '6 customizable LCD keys for streaming', 'Six customizable LCD keys let you switch scenes, launch apps, trigger sounds, and control your stream with a single tap. Visual feedback on every press. Works with OBS, Twitch, YouTube, and 200+ apps. USB-C connection.', 69.00, 'Gaming & VR', 'https://images.pexels.com/photos/36363136/pexels-photo-36363136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"keys": "6 customizable LCD", "apps": "200+ supported", "platforms": "OBS, Twitch, YouTube", "connection": "USB-C", "customization": "Icons and actions", "size": "Mini compact"}', false, true),
+
+-- Smart Plug WiFi 4pk
+('Smart Plug WiFi 4pk', 'Control appliances from anywhere - 4 pack', 'Turn any appliance into a smart device. Schedule timers, set automations, and monitor energy usage from the app. Works with Alexa and Google Assistant. No hub required - just connect to your WiFi. UL certified for safety.', 29.00, 'Smart Home', 'https://images.pexels.com/photos/27934787/pexels-photo-27934787.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"pack": "4 plugs", "voice": "Alexa, Google Assistant", "scheduling": "Yes", "energy_monitor": "Yes", "wifi": "2.4GHz, no hub", "certified": "UL"}', true, true),
+
+-- Solar Security Light
+('Solar Security Light', 'Motion-activated solar floodlight with camera', '156 LEDs deliver 2500 lumens of bright light when motion is detected. Built-in 1080p camera records video and sends alerts to your phone. Solar panel charges all day, no wiring needed. IP65 weatherproof for year-round protection.', 35.00, 'Smart Home', 'https://images.pexels.com/photos/36156612/pexels-photo-36156612.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"leds": "156", "lumens": "2500", "camera": "1080p", "motion_sensor": "Yes", "solar": "Yes, no wiring", "weatherproof": "IP65"}', false, true),
+
+-- 4K Mini Portable Projector
+('4K Mini Portable Projector', 'Cinema anywhere with 4K support and Android TV', 'Pocket-sized projector with native 1080p and 4K support. 500 ANSI lumens, auto-keystone, and Android TV 11.0 built in for Netflix and YouTube. Built-in dual speakers, Bluetooth 5.0, and 2-hour battery. Projects up to 200 inches.', 129.00, 'Mobile & Desk', 'https://images.pexels.com/photos/31726737/pexels-photo-31726737.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"resolution": "Native 1080p, 4K support", "lumens": "500 ANSI", "smart_os": "Android TV 11.0", "screen": "Up to 200 inches", "battery": "2 hours", "keystone": "Auto"}', true, true),
+
+-- Portable Monitor 15.6"
+('Portable Monitor 15.6"', '1080p IPS second screen for laptop and phone', '15.6-inch Full HD IPS monitor with 100% sRGB color accuracy. USB-C single-cable connection for power and video. Works as a second screen for laptops, phones, and gaming consoles. Built-in dual speakers, ultra-slim 0.3-inch profile.', 149.00, 'Mobile & Desk', 'https://images.pexels.com/photos/20762607/pexels-photo-20762607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"display": "15.6 inch IPS", "resolution": "1920x1080 FHD", "color": "100% sRGB", "connection": "USB-C single cable", "speakers": "Built-in dual", "thickness": "0.3 inch"}', true, true),
+
+-- Monitor Light Bar
+('Monitor Light Bar', 'USB-powered eye-care light for your desk', 'Asymmetric optical design illuminates your desk without screen glare. 78 high-quality LEDs with adjustable color temperature from 2700K warm to 6500K cool. Touch controls, 10 brightness levels, and auto-dimming. USB-C powered.', 39.00, 'Mobile & Desk', 'https://images.pexels.com/photos/7491599/pexels-photo-7491599.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"leds": "78", "color_temp": "2700K-6500K", "brightness": "10 levels", "design": "Asymmetric optical", "control": "Touch + auto-dim", "power": "USB-C"}', false, true),
+
+-- Hologram Fan 3D Display
+('Hologram Fan 3D Display', 'Floating 3D holograms in mid-air', 'Create jaw-dropping 3D holograms that float in mid-air. 224 LEDs spin at 750 RPM to render vivid 3D content. Upload your own images and videos via the app. Perfect for retail displays, events, and content creation. Wall-mountable.', 89.00, 'Viral Futuristic', 'https://images.pexels.com/photos/30767247/pexels-photo-30767247.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"resolution": "450x224", "leds": "224", "rpm": "750", "content": "App upload images and video", "mounting": "Wall-mountable", "connectivity": "WiFi + app"}', true, true),
+
+-- Levitating Plant Pot
+('Levitating Plant Pot', 'Gravity-defying floating planter with rotation', 'Watch your plant float and rotate 360 degrees above a sleek electromagnetic base. The gentle rotation ensures even sunlight exposure for healthier growth. Holds small succulents and air plants. A guaranteed conversation starter.', 49.00, 'Viral Futuristic', 'https://images.pexels.com/photos/38094563/pexels-photo-38094563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"levitation": "Electromagnetic", "rotation": "360 degrees", "pot_size": "Fits small succulents", "base": "Magnetic platform", "power": "12V adapter"}', false, true),
+
+-- Neck Speaker Bluetooth
+('Neck Speaker Bluetooth', 'Wearable surround sound around your neck', 'Rests comfortably on your shoulders for immersive personal audio without covering your ears. Up-firing speakers create a personal sound bubble. 16-hour battery, IPX4 splash-proof, and multi-point Bluetooth for two devices.', 42.00, 'Audio', 'https://images.pexels.com/photos/28469377/pexels-photo-28469377.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', '{"design": "Wearable neck speaker", "speakers": "Dual up-firing", "battery": "16 hours", "water_rating": "IPX4", "bluetooth": "5.0 multi-point", "weight": "330g"}', false, true);
